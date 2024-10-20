@@ -1,0 +1,44 @@
+.book-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .book-item {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .book-cover {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .book-details h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .book-details p {
+    margin: 5px 0;
+  }
+  
+  .wishlist-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: red;
+    outline: none;
+  }
+  
+  .wishlist-btn:hover {
+    color: darkred;
+  }
+  
+  
